@@ -36,7 +36,7 @@ spring:
     generate-ddl: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/subway?serverTimzone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/subway?serverTimzone=Asia/Seoul&characterEncoding=UTF-8
     username: root
     password: masterpw
 
@@ -51,6 +51,6 @@ spring:
     generate-ddl: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.77.142:3306/subway?serverTimzone=Asia/Seoul
+    url: jdbc:mysql://192.168.77.142:3306/subway?serverTimzone=Asia/Seoul&characterEncoding=UTF-8
     username: root
     password: masterpw
